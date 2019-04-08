@@ -25,6 +25,5 @@ namespace Parcels.Controllers
       Parcel myParcels = new Parcel(Request.Form["height"],Request.Form["length"],Request.Form["width"],Request.Form["weight"]);
       return View(myParcels);
     }
-
   }
 }
